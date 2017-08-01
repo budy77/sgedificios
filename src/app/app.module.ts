@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 
 import {AccordionModule} from 'primeng/primeng';
 
+import {AppRoutinModule} from './app-routin.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
-    AccordionModule
+    AccordionModule,
+    AppRoutinModule
   ],
   providers: [],
   bootstrap: [AppComponent]
